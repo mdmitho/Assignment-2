@@ -131,6 +131,20 @@ header {
     margin-left: 15px;
     margin-bottom: -6px;
 }
+.more-btn{
+    margin: 1px;
+}
+.more-btn a{
+    color:#E02C6D;
+    text-decoration: none;
+    float: right;
+    margin: 15px 53px;
+    margin-top: 23px;
+}
+.more-btn a i{
+    padding-right: 0px 3px;
+    padding-left: 8px;
+}
 /* footer css */
 .footer{
     background-color: #0a0826;
