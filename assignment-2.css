@@ -18,6 +18,9 @@ font-family: 'Roboto', sans-serif;
 h1{
 
 }
+header {
+    margin-top: 20px;
+}
 /* navigation var css */
 .logo-nav{
     display: flex;
@@ -39,8 +42,8 @@ h1{
     display: flex ;
 }
 .baner-left{
-    margin: 82px;
-    margin-top: 131px;
+    margin: 80px;
+    margin-top: 118px;
 }
 .baner-left h1{
     font-size: 50px;
@@ -63,7 +66,91 @@ h1{
 .primary-btn i{
     padding-left: 12px;
 }
-.banner-right{}
+
 .banner-right img{
-    padding-top: 30px;
+    padding-top: 33px;
+    margin-bottom: 24px;
+}
+/* bbanner css end */
+
+/* img logo css */
+.photo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 21px;
+    margin-top: 15px;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #AAAAAA;
+}
+/* img logo css end*/
+
+/* ......................card css ............*/
+.popular-collection{
+    margin-top: 60px;
+}
+.popular-title h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.popular-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    align-content: stretch;
+    justify-content: end;
+    align-items: baseline;
+    justify-items: center;
+}
+.card{
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card-img{
+    text-align: center;
+    padding-top: 13px;
+}
+.card-title h2{
+    font-size: 28px;
+    padding-left: 14px;
+    margin-top: 16px;
+}
+.card-title h3{
+    margin: 11px;
+    font-weight: 400;
+}
+.card-icon{
+    padding-left: 11px;
+    color: #FB8200;
+}
+.card-detail p{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: -6px;
+}
+/* footer css */
+.footer{
+    background-color: #0a0826;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+.footer h1{
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+.footer p{
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+.social-icon{
+    margin-top: 15px;
+    font-size: 20px;
+}
+#icon{
+
 }
