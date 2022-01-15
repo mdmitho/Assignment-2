@@ -62,6 +62,12 @@ header {
     text-decoration: none;
     color: white;
     border: 0;
+    width: 180px;
+}
+.primary-btn a{
+   color: white;
+   text-decoration: none;
+   margin: 3px;
 }
 .primary-btn i{
     padding-left: 12px;
@@ -145,6 +151,32 @@ header {
     padding-right: 0px 3px;
     padding-left: 8px;
 }
+
+/* ......................contacts css ..............*/
+.contacts{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    margin: 60px;
+}
+.contact-form{
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+}
+.from h2 {
+    text-align: center;
+}
+.from input{
+    padding: 8px;
+    margin: 9px -4px;
+    border-radius: 15px;
+    border-color: #E02C6D;
+}
+.from input {}
 /* footer css */
 .footer{
     background-color: #0a0826;
@@ -165,6 +197,6 @@ header {
     margin-top: 15px;
     font-size: 20px;
 }
-#icon{
-
+#icon a{
+      color:white;
 }
