@@ -68,6 +68,7 @@ header {
     color: white;
     border: 0;
     width: 180px;
+    /* margin-left: 167px; */
 }
 .primary-btn a{
    color: white;
@@ -162,24 +163,37 @@ header {
     display: flex;
     align-content: stretch;
     justify-content: center;
-    margin: 60px;
+    margin-left: 143px;
+    margin-top: 67px;
 }
 .contact-form{
-    margin-top: 50px;
-    margin-left: 45px;
+    margin-top: 47px;
+    /* margin-left: 145px; */
 }
 .from{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+#btn{
+    width: 150px;
+    text-align: center;
+    margin-left: 185px;
+    /* padding: 8px; */
+    /* color: white; */
+    /* background-color: red; */
+    /* text-decoration: none; */
 }
 .from h2 {
     text-align: center;
 }
 .from input{
     padding: 8px;
-    margin: 9px -4px;
+    margin: 9px 136px;
     border-radius: 15px;
     border-color: #E02C6D;
+    width: 239px;
+    /* text-align: center; */
 }
 .from input {}
 /* footer css */
@@ -208,7 +222,7 @@ header {
 /* .................media queries ............*/
 /*  ......................tablet devices */
 
-@media only screen and (min-width:688px) and (max-width:992px){
+@media only screen and (min-width:800px) and (max-width:1020px){
     .container{
         width: 100%;
     }
@@ -231,4 +245,79 @@ header {
         margin-bottom: 24px;
         width: 363px;
     }
+    .from {
+        display: flex;
+        flex-direction: column;
+        margin-left: 67px;
+    }
+   
 }
+/* Mobile devieds */
+@media only screen and ( max-width:688px){
+    .container{
+        width: 100%;
+    }
+    .nav{
+        display: none;
+    }
+    .logo h1{
+        text-align: center;
+    margin-left: 90px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: 1,1fr;
+    }
+    .baner-left{
+        order: 2;
+    }
+    .banner-right{
+        order: 1;
+    }
+    .banner-right img {
+        padding-top: 35px;
+        margin-bottom: -91px;
+        width: 350px;
+        text-align: center;
+        margin-left: 104px;
+    }
+    .baner-left h1 {
+        font-size: 26px;
+    }
+    .baner-left p {
+        font-size: 13px;
+    
+    }
+    .photo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .photo-logo {
+        padding: 12px;
+    }
+    .popular-card,.contacts {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: start;
+        justify-content: start;
+        text-align: center;
+    }
+    
+    .primary-btn {
+           width: 50%;
+    }
+   
+    .more-btn a {
+        color: #E02C6D;
+        text-decoration: none;
+        float: right;
+        margin: 18px 150px;
+        margin-top: 13px;
+    }
+    #btn {
+        text-align: center;
+        margin-left: 134px;
+    }
+}
+
